@@ -1,0 +1,54 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.254286",
+   "Default View_TopLeft":"-1467,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 4 -x 1160 -y 50 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 4 -x 1160 -y 80 -defaultsOSRD
+preplace inst RO2_0 -pg 1 -lvl 3 -x 1000 -y 970 -defaultsOSRD
+preplace inst RO2_1 -pg 1 -lvl 3 -x 1000 -y 490 -defaultsOSRD
+preplace inst RO2_2 -pg 1 -lvl 3 -x 1000 -y 650 -defaultsOSRD
+preplace inst RO2_3 -pg 1 -lvl 3 -x 1000 -y 810 -defaultsOSRD
+preplace inst RO2_4 -pg 1 -lvl 3 -x 1000 -y 170 -defaultsOSRD
+preplace inst RO2_5 -pg 1 -lvl 3 -x 1000 -y 330 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 220 -y 120 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -x 220 -y 350 -defaultsOSRD
+preplace inst temp_sensor -pg 1 -lvl 3 -x 1000 -y 1290 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -x 610 -y 510 -defaultsOSRD
+preplace inst heater -pg 1 -lvl 3 -x 1000 -y 1120 -defaultsOSRD
+preplace inst clk_div_0 -pg 1 -lvl 2 -x 610 -y 880 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 220 -y 1020 -defaultsOSRD
+preplace inst clk_div2_0 -pg 1 -lvl 2 -x 610 -y 1020 -defaultsOSRD
+preplace netloc clk_div_0_clk_1 1 2 1 800 480n
+preplace netloc clk_div_0_clk_4 1 2 1 820 640n
+preplace netloc clk_div_0_clk_7 1 2 1 860 800n
+preplace netloc clk_div_0_clk_11 1 2 1 790 160n
+preplace netloc clk_div_0_clk_14 1 2 1 850 320n
+preplace netloc processing_system7_0_FCLK_CLK2 1 0 3 10 240 430 180 810
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 20 250 410
+preplace netloc rst_ps7_0_100M_peripheral_aresetn1 1 1 2 450 250 840
+preplace netloc processing_system7_0_FCLK_CLK1 1 0 2 20 880 420
+preplace netloc clk_wiz_0_clk_out1 1 1 1 NJ 1020
+preplace netloc clk_div2_0_clk_1 1 2 1 860J 960n
+preplace netloc processing_system7_0_DDR 1 1 3 410J 50 NJ 50 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 440 120n
+preplace netloc ps7_0_axi_periph_M01_AXI 1 2 1 N 460
+preplace netloc ps7_0_axi_periph_M03_AXI 1 2 1 760 500n
+preplace netloc ps7_0_axi_periph_M05_AXI 1 2 1 780 300n
+preplace netloc ps7_0_axi_periph_M07_AXI 1 2 1 750 580n
+preplace netloc ps7_0_axi_periph_M06_AXI 1 2 1 780 560n
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 830 440n
+preplace netloc ps7_0_axi_periph_M04_AXI 1 2 1 750 140n
+preplace netloc ps7_0_axi_periph_M02_AXI 1 2 1 770 480n
+preplace netloc processing_system7_0_FIXED_IO 1 1 3 NJ 80 NJ 80 NJ
+levelinfo -pg 1 -10 220 610 1000 1160
+pagesize -pg 1 -db -bbox -sgen -10 0 1270 1400
+"
+}
+{
+   "da_axi4_cnt":"35",
+   "da_clkrst_cnt":"12",
+   "da_ps7_cnt":"2"
+}
